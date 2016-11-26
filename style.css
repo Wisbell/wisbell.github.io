@@ -1,0 +1,81 @@
+/* Testing */
+nav, div {
+	border: solid 1px black;
+}
+
+
+/* Layout */
+
+.side-nav {
+
+}
+
+
+
+/* Theme */
+.side-nav {
+	background-color: black;
+	color: white;
+}
+
+.side-nav li{
+	list-style-type: none;
+}
+
+/* Media Queries */
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 992px) { 
+
+	.side-nav li {
+		display: inline;
+	}
+}
+
+/*@media (max-width: 768px) {
+	.side-nav li {
+		display: inline;
+	}
+}*/
+
+
+/*.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+*/
+
+
+
+
+
+
+/* make sidebar nav vertical 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+*/
