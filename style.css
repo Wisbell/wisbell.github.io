@@ -1,4 +1,4 @@
-/*	Many thanks!  http://jsfiddle.net/GeA7N/3/
+	Many thanks!  http://jsfiddle.net/GeA7N/3/
 http://stackoverflow.com/questions/24284234/bootstrap-row-height-100-issue*/
 
 
@@ -9,17 +9,11 @@ html, body {
 
 }
 
-ul {
-	width: 100%;
-	padding-left: 0;
-}
 
 .container-fluid {
-	height: 100%;
-	padding: 0;
-	
+	height: 100%;	
 }
-
+/*
 .row {
     height: 100%;
     margin: 0;
@@ -42,33 +36,17 @@ ul {
 .side-nav li {
 	list-style-type: none;
 }
-
+*/
 
 /* Layout */
 
-.about {
-	height: 100%;
-	text-align: center;
-
-	/*background-color: #FFCE00;*/
-	background-color: white;
-}
-
-.projects {
-	height: 300px;
-
-	background-color: purple;
-}
-
-.contact {
-	height: 300px;
-
-	background-color: blue;
-}
 
 
 
 /* Theme */
+
+
+
 
 /* Colors - Thanks https://designschool.canva.com/blog/website-color-schemes/
 
@@ -80,7 +58,7 @@ Sunflowers: #FFCE00;
 
 
 */
-
+/*
 .my-pic {
 	width: 25%;
 	height: 50%;
@@ -126,7 +104,7 @@ Sunflowers: #FFCE00;
 .side-nav li a:focus {
     text-decoration: none;
 }
-
+*/
 /*.side-nav > .home-page a {
     color: #0375B4;
 }*/
@@ -150,7 +128,7 @@ Sunflowers: #FFCE00;
 
 /* Small devices (tablets, 768px and up) */
 /* Make navigation on top on small screens*/
-@media (max-width: 992px) { 
+/*@media (max-width: 992px) { 
 
 	.side-nav {
 		height: 60px;
@@ -159,7 +137,7 @@ Sunflowers: #FFCE00;
 	.side-nav li, .side-nav li a {
 		display: inline;
 	}
-}
+}*/
 
 /*@media (max-width: 768px) {
 	.side-nav li {
@@ -209,4 +187,3 @@ Sunflowers: #FFCE00;
     padding-bottom: 12px;
   }
 }
-*/
