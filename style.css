@@ -7,8 +7,6 @@ http://stackoverflow.com/questions/24284234/bootstrap-row-height-100-issue*/
 html, body {
 	height: 100%;
 
-	background-color: #262228;
-
 }
 
 ul {
@@ -18,12 +16,13 @@ ul {
 
 .container-fluid {
 	height: 100%;
+	padding: 0;
 	
 }
 
 .row {
     height: 100%;
-
+    margin: 0;
  
 }
 
@@ -48,15 +47,17 @@ ul {
 /* Layout */
 
 .about {
-	height: 500px;
+	height: 100%;
+	text-align: center;
 
-	background-color: #FFCE00;
+	/*background-color: #FFCE00;*/
+	background-color: white;
 }
 
-.portfolio {
+.projects {
 	height: 300px;
 
-	background-color: white;
+	background-color: purple;
 }
 
 .contact {
@@ -80,24 +81,38 @@ Sunflowers: #FFCE00;
 
 */
 
-/*ul > .home-page {
-	height: 65px;
-	font-size: 18px;
-	line-height: 60px;
-}*/
+.my-pic {
+	width: 25%;
+	height: 50%;
+	border-radius: 50%;
+}
+
+.last-name {
+	font-weight: bold;
+}
+
+
+
+
 .side-nav {
-	background: #262228;
+	background: white;
+} 
+
+.side-nav ul {
+	border-right: black 1px solid;
+
 }
 
 .side-nav li {
 	text-indent: 20px;
 	line-height: 40px;
+	border-bottom: black 1px solid;
 }
 
 .side-nav li a {
 	display: block;
 	text-decoration: none;
-	color: #0375B4;
+	color: black;
 
 }
 
