@@ -1,31 +1,70 @@
-/* Testing */
-nav, div {
+/*	Many thanks!  http://jsfiddle.net/GeA7N/3/
+http://stackoverflow.com/questions/24284234/bootstrap-row-height-100-issue*/
+
+
+/* Target Elements */
+
+html, body {
+	height: 100%;
+}
+
+.container-fluid {
+	height: 100%;
+
+	border: solid 1px black;
+}
+
+.row {
+    height: 100%;
+    border: solid 1px black;
+}
+
+.side-nav {
+	height: 100%;
+	/*float: left;*/
+
+	background: black;
+	color: white;
+	border: solid 1px black;
+}
+
+.main-content {
+	height: 100%;
+
+	background: white;
+	border: solid 1px black;
+}
+
+.side-nav li {
+	list-style-type: none;
+}
+
+div {
 	border: solid 1px black;
 }
 
 
 /* Layout */
 
-.side-nav {
-
-}
 
 
 
 /* Theme */
-.side-nav {
+/*.side-nav {
 	background-color: black;
 	color: white;
-}
+}*/
 
-.side-nav li{
-	list-style-type: none;
-}
 
 /* Media Queries */
 
 /* Small devices (tablets, 768px and up) */
+/* Make navigation on top on small screens*/
 @media (max-width: 992px) { 
+
+	.side-nav {
+		height: 25px;
+	}
 
 	.side-nav li {
 		display: inline;
@@ -35,6 +74,8 @@ nav, div {
 /*@media (max-width: 768px) {
 	.side-nav li {
 		display: inline;
+		float: none;
+		margin: 1px;
 	}
 }*/
 
