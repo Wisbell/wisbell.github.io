@@ -17,42 +17,45 @@ html, body {
 }
 
 .main-content {
-	height: 100vh;
+	height: 75vh;
     width: 100vw;
 }
 
-.side-nav {
-	height: 100%;
+.main-info-wrapper{
+	padding-left: 10em;
+	padding-top: 8em;
 }
 
-.side-nav ul{
-	height: 100%;
-	padding-top: 48%;
+.main-info-wrapper h1 {
+	font-size: 8em;
+}
+
+.main-info-wrapper h2 {
+	font-size: 2em;
+}
+
+.main-info-wrapper h3 {
+	font-size: 1em;
+}
+
+
+
+
+.side-nav {
+	height: 25vh;
+    width: 100vw;
+}
+
+.side-nav ul {
+	padding-left: 8em;
+	white-space: nowrap;
 }
 
 .side-nav li {
-
-	padding: 10px 0 10px 50%;
-/*	padding-left: 50%;
-	padding-right: 0;*/
-
 	list-style-type: none;
-}
+	display: inline-block;
+	width: 25%;
 
-.main-info-wrapper{
-	height: 100%;
-}
-
-.main-info {
-	padding-top: 20%;
-	padding-right: 50%;
-	text-align: center;
-}
-
-.main-info img {
-	border-radius: 100%;
-	width: 100px;
-	height: 100px;
 }
 
 .side-nav li a {
@@ -61,6 +64,7 @@ html, body {
 
 	color: black;
 	font-weight: 700;
+	font-size: 4em;
 }
 
 /*.side-nav li a:active,
@@ -80,11 +84,11 @@ html, body {
 
 /* Theme */
 
-.about {
+/*.about {
 	background-color: blue;
 }
 
-
+*/
 
 
 
