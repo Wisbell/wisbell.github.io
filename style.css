@@ -1,16 +1,30 @@
 /*	Many thanks!  http://jsfiddle.net/GeA7N/3/
 http://stackoverflow.com/questions/24284234/bootstrap-row-height-100-issue*/
 
+/*	TODO
 
+	Fix navigation class names
+
+	Change navigation to use bootstrap divs to fix
+		spacing issues on mobile
+
+*/
+
+
+
+
+
+/*----------------------*/
 /* Target Main Elements */
-
+/*----------------------*/
 html, body {
 	height: 100%;
 
 }
 
-
+/*--------*/
 /* Layout */
+/*--------*/
 
 .container-fluid {
 	height: 100%;	
@@ -28,6 +42,7 @@ html, body {
 
 .main-info-wrapper h1 {
 	font-size: 8em;
+	border-bottom: 1px solid black;
 }
 
 .main-info-wrapper h2 {
@@ -38,9 +53,7 @@ html, body {
 	font-size: 1em;
 }
 
-
-
-
+/* Layout - Navigation*/
 .side-nav {
 	height: 25vh;
     width: 100vw;
@@ -59,19 +72,13 @@ html, body {
 }
 
 .side-nav li a {
-	padding: 15px;
+	padding: 20px;
 	text-decoration: none;
 
 	color: black;
 	font-weight: 700;
 	font-size: 4em;
 }
-
-/*.side-nav li a:active,
-.side-nav li a:focus {
-    text-decoration: none;
-    color: black;
-}*/
 
 .side-nav li a:hover {
 	transition: all 500ms ease;
@@ -80,9 +87,58 @@ html, body {
     background: #0375B4;
 }
 
+/* Layout - About */
+.about {
+	padding: 4em 4em 4em 4em;
+}
+
+.picture-here {
+	text-align: center;
+}
+
+.about-info {
+	padding-left: 10%;
+	padding-right: 20%;
+	line-height: 2em;
+}
+
+/* Layout - Projects */
+/* Layout - Contact */
 
 
+/*-------*/
 /* Theme */
+/*-------*/
+
+.main-info-wrapper h2:hover {
+	font-size: 3em;
+	/*border-bottom: 1px solid black;*/
+}
+
+.main-info-wrapper h3:hover {
+	font-size: 3em;
+	/*border-bottom: 1px solid black;*/
+}
+
+.about {
+	background-color: #3b3a36;
+	color: white;
+}
+
+
+
+/*---------------*/
+/* Media Queries */
+/*---------------*/
+
+
+
+
+
+
+
+
+
 
 /*.about {
 	background-color: blue;
