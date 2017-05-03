@@ -4,6 +4,8 @@
 .landing {
   padding-left: 10%;
   padding-top: 10%;
+  padding-right: 2%;
+  width: 100vw;
   height: 100vh;
 }
 /*
@@ -30,8 +32,7 @@
 /* Navigation */
 
 .navigation {
-  /*margin-top: 25%;*/
-  margin-top: 10%;
+  margin-top: 28%;
 }
 
 .nav__item {
@@ -60,10 +61,11 @@
   background-color: #3b3a36;
   color: white;
   height: 100vh;
+  width: 100vw;
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
 
   .landing {
     padding-left: 8%;
