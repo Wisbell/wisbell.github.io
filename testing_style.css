@@ -1,0 +1,212 @@
+/*	Many thanks!  http://jsfiddle.net/GeA7N/3/
+http://stackoverflow.com/questions/24284234/bootstrap-row-height-100-issue*/
+
+
+/* Target Elements */
+
+html, body {
+	height: 100%;
+
+}
+
+ul {
+	width: 100%;
+	padding-left: 0;
+}
+
+.container-fluid {
+	height: 100%;
+	padding: 0;
+	
+}
+
+.row {
+    height: 100%;
+    margin: 0;
+ 
+}
+
+.side-nav {
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+.main-content {
+	height: 100%;
+	padding: 0;
+
+}
+
+.side-nav li {
+	list-style-type: none;
+}
+
+
+/* Layout */
+
+.about {
+	height: 100%;
+	text-align: center;
+
+	/*background-color: #FFCE00;*/
+	background-color: white;
+}
+
+.projects {
+	height: 300px;
+
+	background-color: purple;
+}
+
+.contact {
+	height: 300px;
+
+	background-color: blue;
+}
+
+
+
+/* Theme */
+
+/* Colors - Thanks https://designschool.canva.com/blog/website-color-schemes/
+
+Evening: #262228;
+Irises: #007849;
+Starry Night: #0375B4;
+Sunflowers: #FFCE00;
+
+
+
+*/
+
+.my-pic {
+	width: 25%;
+	height: 50%;
+	border-radius: 50%;
+}
+
+.last-name {
+	font-weight: bold;
+}
+
+
+
+
+.side-nav {
+	background: white;
+} 
+
+.side-nav ul {
+	border-right: black 1px solid;
+
+}
+
+.side-nav li {
+	text-indent: 20px;
+	line-height: 40px;
+	border-bottom: black 1px solid;
+}
+
+.side-nav li a {
+	display: block;
+	text-decoration: none;
+	color: black;
+
+}
+
+.side-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #0375B4;
+}
+
+.side-nav li a:active,
+.side-nav li a:focus {
+    text-decoration: none;
+}
+
+/*.side-nav > .home-page a {
+    color: #0375B4;
+}*/
+
+/*.side-nav > .home-page a:hover {
+    color: #fff;
+    background: none;
+}*/
+
+
+
+
+
+/*.side-nav {
+	background-color: black;
+	color: white;
+}*/
+
+
+/* Media Queries */
+
+/* Small devices (tablets, 768px and up) */
+/* Make navigation on top on small screens*/
+@media (max-width: 992px) { 
+
+	.side-nav {
+		height: 60px;
+	}
+
+	.side-nav li, .side-nav li a {
+		display: inline;
+	}
+}
+
+/*@media (max-width: 768px) {
+	.side-nav li {
+		display: inline;
+		float: none;
+		margin: 1px;
+	}
+}*/
+
+
+/*.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+*/
+
+
+
+
+
+
+/* make sidebar nav vertical 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+*/

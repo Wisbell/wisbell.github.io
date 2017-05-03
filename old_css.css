@@ -1,0 +1,324 @@
+/*  Many thanks!  http://jsfiddle.net/GeA7N/3/
+http://stackoverflow.com/questions/24284234/bootstrap-row-height-100-issue*/
+
+/*  TODO
+
+  Fix navigation class names
+
+  Change navigation to use bootstrap divs to fix
+    spacing issues on mobile
+
+*/
+
+
+
+
+
+/*----------------------*/
+/* Target Main Elements */
+/*----------------------*/
+html, body {
+  height: 100%;
+
+}
+
+/*--------*/
+/* Layout */
+/*--------*/
+
+.container-fluid {
+  height: 100%;
+}
+
+.main-content {
+  height: 75vh;
+    width: 100vw;
+}
+
+.main-info-wrapper{
+  padding-left: 10em;
+  padding-top: 8em;
+}
+
+.main-info-wrapper h1 {
+  font-size: 8em;
+  border-bottom: 1px solid black;
+}
+
+.main-info-wrapper h2 {
+  font-size: 2em;
+}
+
+.main-info-wrapper h3 {
+  font-size: 1em;
+}
+
+/* Layout - Navigation*/
+.side-nav {
+  height: 25vh;
+    width: 100vw;
+}
+
+.side-nav ul {
+  padding-left: 8em;
+  white-space: nowrap;  /* Check on this */
+}
+
+.side-nav li {
+  list-style-type: none;
+  display: inline-block;
+  width: 25%;
+
+}
+
+.side-nav li a {
+  padding: 20px;
+  text-decoration: none;
+
+  color: black;
+  font-weight: 700;
+  font-size: 4em;
+}
+
+.side-nav li a:hover {
+  transition: all 500ms ease;
+    text-decoration: none;
+    color: #fff;
+    background: #0375B4;
+}
+
+/* Layout - About */
+.about {
+  padding: 4em 4em 4em 4em;
+}
+
+.picture-here {
+  text-align: center;
+}
+
+.about-info {
+  padding-left: 10%;
+  padding-right: 20%;
+  line-height: 2em;
+}
+
+/* Layout - Projects */
+/* Layout - Contact */
+
+
+/*-------*/
+/* Theme */
+/*-------*/
+
+.main-info-wrapper h2:hover {
+  font-size: 3em;
+  /*border-bottom: 1px solid black;*/
+}
+
+.main-info-wrapper h3:hover {
+  font-size: 3em;
+  /*border-bottom: 1px solid black;*/
+}
+
+.about {
+  background-color: #3b3a36;
+  color: white;
+}
+
+
+
+/*---------------*/
+/* Media Queries */
+/*---------------*/
+
+
+
+
+
+
+
+
+
+
+/*.about {
+  background-color: blue;
+}
+
+*/
+
+
+
+/*
+.row {
+    height: 100%;
+    margin: 0;
+
+}
+
+.side-nav {
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+
+}
+
+.main-content {
+  height: 100%;
+  padding: 0;
+
+}
+
+.side-nav li {
+  list-style-type: none;
+}
+*/
+
+/* Layout */
+
+
+
+
+/* Theme */
+
+
+
+
+/* Colors - Thanks https://designschool.canva.com/blog/website-color-schemes/
+
+Evening: #262228;
+Irises: #007849;
+Starry Night: #0375B4;
+Sunflowers: #FFCE00;
+
+
+
+*/
+/*
+.my-pic {
+  width: 25%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+.last-name {
+  font-weight: bold;
+}
+
+
+
+
+.side-nav {
+  background: white;
+}
+
+.side-nav ul {
+  border-right: black 1px solid;
+
+}
+
+.side-nav li {
+  text-indent: 20px;
+  line-height: 40px;
+  border-bottom: black 1px solid;
+}
+
+.side-nav li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+
+}
+
+.side-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #0375B4;
+}
+
+.side-nav li a:active,
+.side-nav li a:focus {
+    text-decoration: none;
+}
+*/
+/*.side-nav > .home-page a {
+    color: #0375B4;
+}*/
+
+/*.side-nav > .home-page a:hover {
+    color: #fff;
+    background: none;
+}*/
+
+
+
+
+
+/*.side-nav {
+  background-color: black;
+  color: white;
+}*/
+
+
+/* Media Queries */
+
+/* Small devices (tablets, 768px and up) */
+/* Make navigation on top on small screens*/
+/*@media (max-width: 992px) {
+
+  .side-nav {
+    height: 60px;
+  }
+
+  .side-nav li, .side-nav li a {
+    display: inline;
+  }
+}*/
+
+/*@media (max-width: 768px) {
+  .side-nav li {
+    display: inline;
+    float: none;
+    margin: 1px;
+  }
+}*/
+
+
+/*.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+*/
+
+
+
+
+
+
+/* make sidebar nav vertical
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
