@@ -63,12 +63,16 @@
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .navigation {
     margin-top: 10%;
   }
 
   .nav__link {
     padding: 10px;
+  }
+
+  .landing__cohort-info {
+    display: none;
   }
 }
