@@ -64,8 +64,13 @@
 
 
 @media only screen and (max-width: 768px) {
+
+  .landing {
+    padding-left: 8%;
+  }
+
   .navigation {
-    margin-top: 10%;
+    margin-top: 8%;
   }
 
   .nav__link {
