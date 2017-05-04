@@ -1,5 +1,7 @@
-
+/****************/
 /* Landing Page */
+/****************/
+
 
 .landing {
   padding-left: 10%;
@@ -20,7 +22,7 @@
 }*/
 
 .landing__title {
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
   font-size: 6em;
 }
 
@@ -28,8 +30,10 @@
   font-size: 1.5em;
 }
 
-
+/**************/
 /* Navigation */
+/**************/
+
 
 .navigation {
   margin-top: 28%;
@@ -54,8 +58,10 @@
   background: #0375B4;
 }
 
-
+/*********/
 /* About */
+/*********/
+
 
 .about {
   background-color: #3b3a36;
@@ -64,6 +70,53 @@
   width: 100vw;
 }
 
+
+/**************/
+/*  Projects  */
+/**************/
+
+
+.projects {
+  height: 100vh;
+  width: 100vw;
+}
+
+/*************/
+/*  Contact  */
+/*************/
+
+
+.contact {
+  height: 100vh;
+  width: 100vw;
+  background-color: #26313E;
+  background-color: #386DAD;
+  color: #fff;
+  text-align: justify;
+  padding-left: 30%;
+  padding-top: 10%;
+}
+
+.contact__title {
+  border-bottom: 2px solid black;
+}
+
+.contact__image {
+  width: 8%;
+  height: 8%;
+}
+
+.contact__github {
+  padding-bottom: 1%;
+}
+
+.contact__item {
+  font-size: 3em;
+  padding-left: 1%;
+}
+
+
+/* Mobile Functionality */
 
 @media only screen and (max-width: 991px) {
 
