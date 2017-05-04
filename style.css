@@ -1,3 +1,7 @@
+.container-fluid {
+  padding: 0;
+}
+
 /****************/
 /* Landing Page */
 /****************/
@@ -68,6 +72,7 @@
   color: white;
   height: 100vh;
   width: 100vw;
+  padding-left: 15px;
 }
 
 
@@ -79,6 +84,7 @@
 .projects {
   height: 100vh;
   width: 100vw;
+  padding-left: 15px;
 }
 
 /*************/
@@ -99,11 +105,28 @@
 
 .contact__title {
   border-bottom: 2px solid black;
+  /*padding-left: 25%;*/
+}
+
+.contact__link {
+  color: white;
+  text-decoration: none;
+}
+
+.contact__link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.contact__link:visited {
+  color: white;
+  text-decoration: none;
 }
 
 .contact__image {
   width: 8%;
   height: 8%;
+  /*padding-left: 5%*/
 }
 
 .contact__github {
@@ -118,7 +141,7 @@
 
 /* Mobile Functionality */
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 768px) {
 
   .landing {
     padding-left: 8%;
@@ -134,5 +157,25 @@
 
   .landing__cohort-info {
     display: none;
+  }
+
+  .contact {
+    padding-right: 20%;
+  }
+
+  .contact__image {
+    width: 40%;
+    height: 40%;
+    padding-left: 20%;
+  }
+
+  .contact__item {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .navigation {
+    margin-top: 20%;
   }
 }
