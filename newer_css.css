@@ -15,7 +15,7 @@
   padding-left: 10%;
   padding-top: 10%;
   padding-right: 2%;
-  /*width: 100vw;*/
+  width: 100vw;
   height: 100vh;
 }
 /*
@@ -75,7 +75,7 @@
   background-color: #3b3a36;
   color: white;
   height: 100vh;
-  /*width: 100vw;*/
+  width: 100vw;
   padding-left: 15px;
 }
 
@@ -87,7 +87,7 @@
 
 .projects {
   height: 100vh;
-  /*width: 100vw;*/
+  width: 100vw;
   padding-left: 15px;
 }
 
@@ -98,7 +98,7 @@
 
 .contact {
   height: 100vh;
-  /*width: 100vw;*/
+  width: 100vw;
   background-color: #26313E;
   background-color: #386DAD;
   color: #fff;
