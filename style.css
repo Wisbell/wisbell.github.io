@@ -1,50 +1,34 @@
-.container-fluid {
+/*.container-fluid {
   padding: 0;
 }
 
 .row {
   margin: 0;
 }
-
+*/
 /****************/
-/* Landing Page */
+/* Landing Title */
 /****************/
 
 
 .landing {
   padding-left: 10%;
-  padding-top: 10%;
+  padding-top: 40%;
   padding-right: 2%;
-  /*width: 100vw;*/
   height: 100vh;
 }
-/*
-.landing__info {
-  width: 99em;
-  height: 2em;
-  margin-bottom: 10em;
-}*/
-
-/*.landing__row {
-  padding-bottom: 13em;
-}*/
 
 .landing__title {
-  border-bottom: 2px solid black;
-  font-size: 6em;
+  font-size: 2em;
+  border-bottom: 1px solid black;
 }
 
-.landing__item {
-  font-size: 1.5em;
-}
-
-/**************/
-/* Navigation */
-/**************/
+/**********************/
+/* Landing Navigation */
+/**********************/
 
 
 .navigation {
-  margin-top: 28%;
 }
 
 .nav__item {
@@ -52,11 +36,8 @@
 }
 
 .nav__link {
-  font-size: 1em;
   color: black;
-  padding: 15px;
-  font-weight: 600;
-  font-size: 3em;
+
 }
 
 .nav__link:hover {
@@ -70,118 +51,44 @@
 /* About */
 /*********/
 
-
+/*
 .about {
   background-color: #3b3a36;
   color: white;
   height: 100vh;
-  /*width: 100vw;*/
   padding-left: 15px;
+  padding-top: 3%;
+  text-align: center;
 }
 
+.about__picture {
+  width: 40%;
+}
+*/
 
 /**************/
 /*  Projects  */
 /**************/
 
 
-.projects {
+/*.projects {
   height: 100vh;
-  /*width: 100vw;*/
-  padding-left: 15px;
-}
+}*/
 
 /*************/
 /*  Contact  */
 /*************/
 
 
-.contact {
+/*.contact {
   height: 100vh;
-  /*width: 100vw;*/
   background-color: #26313E;
   background-color: #386DAD;
   color: #fff;
   text-align: justify;
-  padding-left: 25%;
-  padding-top: 10%;
 }
+*/
 
-.contact__title {
-  border-bottom: 2px solid black;
-  /*padding-left: 25%;*/
-}
-
-.contact__link {
-  color: white;
-  text-decoration: none;
-}
-
-.contact__link:hover {
-  color: white;
-  text-decoration: none;
-}
-
-.contact__link:visited {
-  color: white;
-  text-decoration: none;
-}
-
-.contact__image {
-  width: 8%;
-  height: 8%;
-  /*padding-left: 5%*/
-}
-
-.contact__github {
-  padding-bottom: 1%;
-}
-
-.contact__item {
-  font-size: 3em;
-  padding-left: 1%;
-}
 
 
 /* Mobile Functionality */
-
-@media only screen and (max-width: 768px) {
-
-  .landing {
-    padding-left: 8%;
-  }
-
-  .navigation {
-    margin-top: 8%;
-  }
-
-  .nav__link {
-    padding: 10px;
-  }
-
-  .landing__cohort-info {
-    display: none;
-  }
-
-  /*.contact {
-    padding-right: 20%;
-  }*/
-
-/*.contact__info-wrapper {
-    text-align: center;
-  }
-*/
-  .contact__image {
-    width: 35%;
-    height: 35%;
-    /*padding-left: 20%;*/
-  }
-
-  .contact__item {
-    display: none;
-  }
-
-  .contact__github {
-    padding-bottom: 10%;
-  }
-}
