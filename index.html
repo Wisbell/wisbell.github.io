@@ -1,44 +1,138 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Epilogue by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
 <html>
-<head>
-  <title>Westley Isbell - Web Developer Portfolio</title>
-  <!-- Latest compiled and minified CSS -->
+	<head>
+		<title>Westley Isbell</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="inner">
+					<h1>Westley Isbell</h1>
+					<p>Junior Software Developer</a></p>
+				</div>
+			</header>
 
-  <!-- Ensures proper rending and touch zooming -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-<body>
-  <div class="container-fluid">
+				<!-- Banner -->
+					<section id="intro" class="main">
+						<!-- <span class="icon fa-diamond major"></span> -->
+						<h2>About Me</h2>
+						<img style="width: 25%;" src="images/me_1.jpg">
+						<p>Currently an apprentice at Nashville Software School. After receiving my first computer at age 10, and becoming bored with playing Sim City, my hobby of tinkering with computers officially began. Pursuing a career in software development has allowed me to continue this passion. I am an IoT enthusiast who is exploring the uses of Raspberry PIs to accomplish automation, surveillance, and any other awesome application. Interested in solving problems, serving humanity, and everything Javascript.</p>
+						<ul class="actions">
+							<li><a href="#projects" class="button big">Projects</a></li>
+							<li><a href="#cta" class="button big">Contact</a></li>
+						</ul>
+					</section>
 
-    <div class="row landing">
-        <div class="landing__info">
-          <h1 class="col-md-12 landing__title animated zoomIn">Westley Isbell</h1>
-          <p class="col-md-12 landing__item animated bounceInLeft">Junior Software Developer</p>
-          <!-- <p class="col-md-12 landing__item landing__cohort-info animated bounceInUp">Cohort 17 - add Cohort 17 symbol here? and css animation</p> -->
-        </div>
+				<!-- Items -->
+					<section id="projects" class="main items">
+						<h1 style="width: 100%; text-align: center">Projects</h1>
+						<article class="item">
+							<header>
+								<a href="javaScript:void(0);"><img src="images/score_keeper.png" alt="" /></a>
+								<h3>Score Keeper</h3>
+							</header>
+							<p>Mobile Ionic app created to keep score of ping pong games.  Stored data using firebase as
+a back end.  Implemented use of an LCD screen connected to a raspberry pi to show
+current scores of a ping pong game in real time</p>
+							<ul class="actions">
+								<li><a href="https://github.com/Wisbell/capstone-score-keeper-west" target="_blank" class="button">Github</a></li>
+							</ul>
+						</article>
+						<article class="item">
+							<header>
+								<a href="javaScript:void(0);"><img src="images/pic02.jpg" alt="" /></a>
+								<h3>Home Watcher</h3>
+							</header>
+							<p>Currently in development</p>
+							<p>Web application created to maintain surveillance of a location using a Raspberry Pi
+camera module.  The Raspberry Pi camera is triggered using a motion sensor and the
+picture is sent to Amazon Web Services for storage.  A client can log in and see the
+pictures and what time the motion was recorded./p>
+							<ul class="actions">
+								<li><a href="https://github.com/Wisbell/Home-Watcher" target="_blank" class="button">Github</a></li>
+							</ul>
+						</article>
+						<article class="item">
+							<header>
+								<a href="javaScript:void(0);"><img src="images/tick_slack_toe.png" alt="" /></a>
+								<h3>Tick Slack Toe</h3>
+							</header>
+							<p>Slack bot created with fellow classmate Jared Fuller to allow slack users to play games of
+tic tac toe using commands entered in general chat.  Made use of 'slackbots'
+NodeJS module located on NPM. </p>
+							<ul class="actions">
+								<li><a href="https://github.com/jaredshane/Tic-Slack-Toe" target="_blank" class="button">Github</a></li>
+							</ul>
+						</article>
+						<article class="item">
+							<header>
+								<a href="javaScript:void(0);"><img src="images/jurassic_zoo.png" alt="" /></a>
+								<h3>Jurassic Park Zoo</h3>
+							</header>
+							<p>Full stack web application created to keep track of zoo personnel and dinosaurs.  Worked
+with teammates Sorrel Brigman and Jared Fuller implementing an Angular front-end and
+express API to interface a Postgres database on the back-end.  API includes all CRUD
+functionality for personnel and dinosaurs.</p>
+							<ul class="actions">
+								<li><a href="https://jaredshane.github.io/westley-js-front-end" target="_blank" class="button">Live Site</a></li>
+								<li><a href="https://jurassic-park-api.herokuapp.com/api/v1" target="_blank" class="button">Live API</a></li>
+								<li><a href="https://github.com/nss-day-cohort-17/ms-03-group-project-zoo-api-westley-js" target="_blank" class="button">Github</a></li>
+							</ul>
+						</article>
+					</section>
 
-      <!-- Navigation -->
-      <div class="row navigation">
-        <ul class="col-md-12 animated slideInDown">
-          <li class="col-md-3 nav__item animated slideInLeft"><a class="nav__link" href="#about">About</a></li>
-          <li class="col-md-3 nav__item animated slideInDown"><a class="nav__link" href="#projects">Projects</a></li>
-          <li class="col-md-3 nav__item animated slideInRight"><a class="nav__link" href="#contact">Contact</a></li>
-        </ul>
-      </div>
+				<!-- CTA -->
+					<section id="cta" class="main special">
+						<h2>Contact</h2>
+						<p>Below are links to my Github, LinkedIn, and Email.  Lets work together or talk about our current or future projects!</p>
+						<ul class="actions">
+							<!-- <li><a href="#" class="button big">Get Started</a></li> -->
+						</ul>
+					</section>
 
-    </div>
+				<!-- Main -->
+				<!--
+					<section id="main" class="main">
+						<header>
+							<h2>Lorem ipsum dolor</h2>
+						</header>
+						<p>Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit hendrerit. In sed feugiat est, eu congue elit. Ut porta magna vel felis sodales vulputate. Donec faucibus dapibus lacus non ornare. Etiam eget neque id metus gravida tristique ac quis erat. Aenean quis aliquet sem. Ut ut elementum sem. Suspendisse eleifend ut est non dapibus. Nulla porta, neque quis pretium sagittis, tortor lacus elementum metus, in imperdiet ante lorem vitae ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam eget neque id metus gravida tristique ac quis erat. Aenean quis aliquet sem. Ut ut elementum sem. Suspendisse eleifend ut est non dapibus. Nulla porta, neque quis pretium sagittis, tortor lacus elementum metus, in imperdiet ante lorem vitae ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+					</section>
+				-->
 
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
+							<li><a href="https://github.com/Wisbell" target="_blank" class="icon fa-github fa-5x"><span class="label">Github</span></a></li>
+							<!-- <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li> -->
+							<!-- <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li> -->
+							<li><a href="https://www.linkedin.com/in/westley-isbell/" target="_blank" class="icon fa-linkedin fa-5x"><span class="label">LinkedIn</span></a></li>
+							<li><a href="mailto:coolwest@gmail.com" class="icon fa-envelope fa-5x"><span class="label">Email</span></a></li>
+						</ul>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.</p>
+					</footer>
 
+			</div>
 
-  </div> <!-- Container Div End -->
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-</body>
+	</body>
 </html>
