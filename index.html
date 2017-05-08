@@ -28,55 +28,68 @@
 					<section id="intro" class="main">
 						<!-- <span class="icon fa-diamond major"></span> -->
 						<h2>About Me</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae<br />
-						malesuada turpis. Nam pellentesque in ac aliquam. Aliquam tempor<br />
-						mi porta egestas maximus lorem ipsum dolor.</p>
+						<img style="width: 25%;" src="images/me_1.jpg">
+						<p>Currently an apprentice at Nashville Software School. After receiving my first computer at age 10, and becoming bored with playing Sim City, my hobby of tinkering with computers officially began. Pursuing a career in software development has allowed me to continue this passion. I am an IoT enthusiast who is exploring the uses of Raspberry PIs to accomplish automation, surveillance, and any other awesome application. Interested in solving problems, serving humanity, and everything Javascript.</p>
 						<ul class="actions">
-							<li><a href="#" class="button big">Learn More</a></li>
+							<li><a href="#projects" class="button big">Projects</a></li>
+							<li><a href="#cta" class="button big">Contact</a></li>
 						</ul>
 					</section>
 
 				<!-- Items -->
-					<section class="main items">
+					<section id="projects" class="main items">
 						<h1 style="width: 100%; text-align: center">Projects</h1>
 						<article class="item">
 							<header>
-								<a href="#"><img src="images/pic01.jpg" alt="" /></a>
+								<a href="javaScript:void(0);"><img src="images/score_keeper.png" alt="" /></a>
 								<h3>Score Keeper</h3>
 							</header>
-							<p>Score keeper project - add github or other links and pics</p>
+							<p>Mobile Ionic app created to keep score of ping pong games.  Stored data using firebase as
+a back end.  Implemented use of an LCD screen connected to a raspberry pi to show
+current scores of a ping pong game in real time</p>
 							<ul class="actions">
-								<li><a href="#" class="button">More</a></li>
+								<li><a href="https://github.com/Wisbell/capstone-score-keeper-west" target="_blank" class="button">Github</a></li>
 							</ul>
 						</article>
 						<article class="item">
 							<header>
-								<a href="#"><img src="images/pic02.jpg" alt="" /></a>
-								<h3>Other Project</h3>
+								<a href="javaScript:void(0);"><img src="images/pic02.jpg" alt="" /></a>
+								<h3>Home Watcher</h3>
 							</header>
-							<p>Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit hendrerit. In sed feugiat est, eu congue elit. Ut porta magna vel felis sodales vulputate. Donec faucibus dapibus lacus non ornare.</p>
+							<p>Currently in development</p>
+							<p>Web application created to maintain surveillance of a location using a Raspberry Pi
+camera module.  The Raspberry Pi camera is triggered using a motion sensor and the
+picture is sent to Amazon Web Services for storage.  A client can log in and see the
+pictures and what time the motion was recorded./p>
 							<ul class="actions">
-								<li><a href="#" class="button">More</a></li>
+								<li><a href="https://github.com/Wisbell/Home-Watcher" target="_blank" class="button">Github</a></li>
 							</ul>
 						</article>
 						<article class="item">
 							<header>
-								<a href="#"><img src="images/pic03.jpg" alt="" /></a>
+								<a href="javaScript:void(0);"><img src="images/tick_slack_toe.png" alt="" /></a>
 								<h3>Tick Slack Toe</h3>
 							</header>
-							<p>Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit hendrerit. In sed feugiat est, eu congue elit. Ut porta magna vel felis sodales vulputate. Donec faucibus dapibus lacus non ornare.</p>
+							<p>Slack bot created with fellow classmate Jared Fuller to allow slack users to play games of
+tic tac toe using commands entered in general chat.  Made use of 'slackbots'
+NodeJS module located on NPM. </p>
 							<ul class="actions">
-								<li><a href="#" class="button">More</a></li>
+								<li><a href="https://github.com/jaredshane/Tic-Slack-Toe" target="_blank" class="button">Github</a></li>
 							</ul>
 						</article>
 						<article class="item">
 							<header>
-								<a href="#"><img src="images/pic04.jpg" alt="" /></a>
+								<a href="javaScript:void(0);"><img src="images/jurassic_zoo.png" alt="" /></a>
 								<h3>Jurassic Park Zoo</h3>
 							</header>
-							<p>Fusce malesuada efficitur venenatis. Pellentesque tempor leo sed massa hendrerit hendrerit. In sed feugiat est, eu congue elit. Ut porta magna vel felis sodales vulputate. Donec faucibus dapibus lacus non ornare.</p>
+							<p>Full stack web application created to keep track of zoo personnel and dinosaurs.  Worked
+with teammates Sorrel Brigman and Jared Fuller implementing an Angular front-end and
+express API to interface a Postgres database on the back-end.  API includes all CRUD
+functionality for personnel and dinosaurs.</p>
 							<ul class="actions">
-								<li><a href="#" class="button">More</a></li>
+								<li><a href="https://jaredshane.github.io/westley-js-front-end" target="_blank" class="button">Live Site</a></li>
+								<li><a href="https://jurassic-park-api.herokuapp.com/api/v1" target="_blank" class="button">Live API</a></li>
+								<li><a href="https://github.com/nss-day-cohort-17/ms-03-group-project-zoo-api-westley-js" target="_blank" class="button">Github</a></li>
 							</ul>
 						</article>
 					</section>
@@ -84,9 +97,9 @@
 				<!-- CTA -->
 					<section id="cta" class="main special">
 						<h2>Contact</h2>
-						<p>Add little message or point to links below to get in contact. add links to git, linkedIn, email</p>
+						<p>Below are links to my Github, LinkedIn, and Email.  Lets work together or talk about our current or future projects!</p>
 						<ul class="actions">
-							<li><a href="#" class="button big">Get Started</a></li>
+							<!-- <li><a href="#" class="button big">Get Started</a></li> -->
 						</ul>
 					</section>
 
@@ -104,11 +117,11 @@
 					<footer id="footer">
 						<ul class="icons">
 							<!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
-							<li><a href="#" class="icon fa-github fa-5x"><span class="label">Github</span></a></li>
+							<li><a href="https://github.com/Wisbell" target="_blank" class="icon fa-github fa-5x"><span class="label">Github</span></a></li>
 							<!-- <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li> -->
 							<!-- <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li> -->
-							<li><a href="#" class="icon fa-linkedin fa-5x"><span class="label">LinkedIn</span></a></li>
-							<li><a href="#" class="icon fa-envelope fa-5x"><span class="label">Email</span></a></li>
+							<li><a href="https://www.linkedin.com/in/westley-isbell/" target="_blank" class="icon fa-linkedin fa-5x"><span class="label">LinkedIn</span></a></li>
+							<li><a href="mailto:coolwest@gmail.com" class="icon fa-envelope fa-5x"><span class="label">Email</span></a></li>
 						</ul>
 						<p class="copyright">&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.</p>
 					</footer>
